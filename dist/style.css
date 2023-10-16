@@ -791,7 +791,8 @@ footer .flex:last-child a:hover{
 /*HEADER*/
 header{
     width:100%;
-    background:linear-gradient(to right, rgba(1,1,1,0.9) 10%, rgba(1,1,1,0.5) 50%, rgba(1,1,1,0.1) 100%), url("https://i.postimg.cc/1t2jwYgp/malgorzata-bujalska-03-Zf94er-QWo-unsplash.jpg");
+    background:linear-gradient(to right, rgba(1,1,1,0.9) 10%, rgba(1,1,1,0.5) 50%, rgba(1,1,1,0.1) 100%), url("../images/slider-img-1.jpg");
+    /* background:linear-gradient(to right, rgba(1,1,1,0.9) 10%, rgba(1,1,1,0.5) 50%, rgba(1,1,1,0.1) 100%), url("https://i.postimg.cc/1t2jwYgp/malgorzata-bujalska-03-Zf94er-QWo-unsplash.jpg"); */
     background-size:cover;
     background-position:left;
     align-items:center;
