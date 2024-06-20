@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 // import '../styles/Nav.css'
+import nsbslogo from '../images/nsbslogo.png';
 
 const Nav = () => {
     return ( 
@@ -44,7 +45,7 @@ const Nav = () => {
 
             <menu id="menu" class="side_menu">
             <a href="javascript:void(0)" class="close"><i class="fa fa-times"></i></a>
-            <strong class="fixed_flex logo"><img src="../images/nsbslogo.png" alt="Summit"  loading="lazy" /></strong>
+            <strong class="fixed_flex logo"><img src={nsbslogo} alt="Summit"  loading="lazy" /></strong>
             <br/>
             <ul>
                 <li><a href="#">Home</a></li>

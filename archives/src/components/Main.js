@@ -1,6 +1,11 @@
 import React from 'react';
-import '../App.css'
+import '../App.css';
+import img1 from '../images/img1.webp';
+import img2 from '../images/img2.jpeg';
+import img3 from '../images/img3.jpeg';
+import img4 from '../images/img4.jpeg';
 const Main = () => {
+
     return ( 
         <div>
             <main >
@@ -21,16 +26,16 @@ const Main = () => {
                         <span class="ball"></span>
                         <section class="fixed_flex">
                             <figure class="flex_content">
-                                <img src="../images/biochemistry-shutterstock_187967735_web.webp" alt="" loading="lazy" />
+                                <img src={img1} alt="" loading="lazy" />
                             </figure>
                             <figure class="flex_content">
-                                <img src="../images/images (1).jpeg" alt="" loading="lazy" />
+                                <img src={img2} alt="" loading="lazy" />
                             </figure>
                             <figure class="flex_content">
-                                <img src="../images/download (2).jpeg" alt="" loading="lazy" />
+                                <img src={img3} alt="" loading="lazy" />
                             </figure>
                             <figure class="flex_content">
-                                <img src="../images/technology-physics-and-chemistry-blue-bottle-wallpaper-preview.jpg" alt="" loading="lazy" />
+                                <img src={img4} alt="" loading="lazy" />
                             </figure>
                         </section>
                     </div>
